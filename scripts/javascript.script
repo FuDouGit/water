@@ -1,0 +1,13 @@
+const dialog = document.getElementById('myDialog');
+const openBtn = document.getElementById('openBtn');
+const closeBtn = document.getElementById('closeBtn');
+
+// 打开模态对话框
+openBtn.addEventListener('click', () => {
+  dialog.showModal(); 
+});
+
+// 关闭对话框
+closeBtn.addEventListener('click', () => {
+  dialog.close();
+});
